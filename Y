@@ -1,0 +1,4 @@
+
+27/04/2023 17:31:17 :  select count(1) COUNTER from vision_rac_fetch_det t1,        vision_node_credentials t2   where t1.node_name = t2.node_name    and t1.cron_name = 'RS_SCHEDULER_CRON'    and t2.server_environment = 'UAT'    and t1.last_ping_time >   DATEADD(minute, -15, GETDATE()) 
+27/04/2023 17:31:58 :  select count(1) COUNTER from vision_rac_fetch_det t1,        vision_node_credentials t2   where t1.node_name = t2.node_name    and t1.cron_name = 'RS_SCHEDULER_CRON'    and t2.server_environment = 'UAT'    and t1.last_ping_time >   DATEADD(minute, -15, GETDATE()) 
+27/04/2023 17:33:43 :  select count(1) COUNTER from vision_rac_fetch_det t1,        vision_node_credentials t2   where t1.node_name = t2.node_name    and t1.cron_name = 'RS_SCHEDULER_CRON'    and t2.server_environment = 'UAT'    and t1.last_ping_time >   DATEADD(minute, -15, GETDATE()) 
